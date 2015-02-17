@@ -1,0 +1,143 @@
+/** {
+    border: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.featured {
+    color: #BCBBBB;
+}
+
+h4 {
+    color: #63A4B8;
+    font-weight: bold;
+    margin: auto;
+}
+
+.title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.navbar {
+    background-color: #484848;
+    text-align: center;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+.navbutton {
+    color: #FFFFFF;
+    padding-right: 15pt;
+    padding-left: 15pt;
+}
+
+.meat {
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+
+.sidebar {
+    background-color: #E9E9E9;
+    margin-top: 10pt;
+    padding: 5pt;
+    -webkit-box-shadow: 4pt 4pt 2pt #888888;
+    -moz-box-shadow: 4pt 4pt 2pt #888888;
+    box-shadow: 4pt 4pt 2pt #888888;
+}
+
+.img {
+    -webkit-box-shadow: 4pt 4pt 2pt #888888;
+    -moz-box-shadow: 4pt 4pt 2pt #888888;
+    box-shadow: 4pt 4pt 2pt #888888;
+}
+
+.content {
+    padding-right: 10pt;
+}
+
+.logos {
+    padding-left: 10pt;
+}
+
+.titlebar {
+    text-align: center;
+    background: #87e0fd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 48em;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex; flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}

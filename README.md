@@ -12,6 +12,7 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+
 License/Copyright
 =================
 
@@ -22,3 +23,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+External Sources
+================
+Color picker: http://www.w3schools.com/tags/ref_colorpicker.asp
+Gradient Generator: http://www.colorzilla.com/gradient-editor/
