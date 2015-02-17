@@ -40,12 +40,12 @@
     - [ ] Take 3 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
-** Part II 
+** Part II
 
    You're going to make your own HTML page and you're going to make 2
    CSS themes for it.
 
-   Emulate the 2nd and 3rd design from this comic: 
+   Emulate the 2nd and 3rd design from this comic:
    http://theoatmeal.com/comics/design_hell
 
    But instead make a 1 webpage about each assignment partner (1 page
@@ -68,23 +68,23 @@
 
 *** Requirements
 
-    - [ ] 4 sections: who you are, your history, what you have to
+    - [X] 4 sections: who you are, your history, what you have to
       offer, important points about you
     - [ ] 1 Ugly CSS theme
-    - [ ] 1 good CSS theme
+    - [X] 1 good CSS theme
     - [ ] 2 HTML files, each with the same content but different CSS
-    - [ ] your photo (try to keep it professional)
+    - [X] your photo (try to keep it professional)
     - [ ] Take 2 screenshots of firefox running all of your pages that
       demonstrates your theme.
-    
+
 
 ** Restrictions
-   - [ ] Use Python 2.7
-   - [ ] Must run in the undergrad lab (Ubuntu 12.04)
-   - [ ] License your content properly (use a Creative Commons License
+   - [X] Use Python 2.7
+   - [X] Must run in the undergrad lab (Ubuntu 12.04)
+   - [X] License your content properly (use a Creative Commons License
      like CC-BY-ND or CC-BY-SA)
      - Put your name on it!
-   - [ ] If you borrow CSS, always cite the author and the source
+   - [X] If you borrow CSS, always cite the author and the source
 
 ** Recommendations
 
@@ -104,7 +104,7 @@
      - Line 3: Your collaborator's CCID
 
 ** Marking
-   - 3 for the appropriate skinning the gutenberg stories with new CSS 
+   - 3 for the appropriate skinning the gutenberg stories with new CSS
    - 3 marks for the 2 versions of your page
    - 1 mark for making the CSS for your promotion pages look as close
      to theoatmeal comic as possible (don't steal his images).
