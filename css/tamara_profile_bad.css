@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+	height: 100%;
+    width: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none
+}
+
+.top-bar {
+    width: 100%;
+  	background-color: yellow;
+    padding: 10px;
+	text-align: right;
+    background-image: url("../images/tamara.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	height: 150px;
+    border-bottom: 2px solid black;
+}
+
+.top-text {
+    position: absolute;
+    top: 200px;
+    color: rgba(0, 0, 0, 0);
+    width: 200px;
+    height: 160px;
+    display: block;
+    background-image: url("../images/bunny.png");
+    background-size: 200px 160px;
+}
+.right-icons {
+    display: none;
+}
+
+.content {
+    text-align: center;
+    float: left;
+    margin: 15px;
+    width: 60%;
+}
+
+.first-word-background {
+    display: none;
+}
+
+.first-word {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    background-clip: text;   
+}
+
+.first-line-text {
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    top: 110px;
+    font-size: 30px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    background-clip: text;   
+}
+
+@-moz-document url-prefix() {
+    .first-word {
+        color: #a1ff06;
+        text-shadow: red 2px -5px;
+    }
+    
+    .first-line-text {
+        color: #a1ff06;
+        text-shadow: red 2px -5px;
+    }
+}
+
+.first-hr {
+    display: none;
+}
+
+.intro-img  {
+    visibility: hidden;
+    float: left;
+}
+
+.intro {
+}
+
+.row {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content br ~ br {
+    display: none;
+}
+
+.prompt {
+    display: none;
+}
+
+.section_header {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    cursor: default
+}
+
+.section-body {
+    width: 800px;
+}
+
+#education > .section-body, #contact-info .section-body {
+    width: 600px;
+}
+
+.term-label {
+    padding: 2px;
+    display: inline-block;
+    border:1px solid  #666666;
+    width:200px;
+    background-color:#eee;
+}
+
+.term-label ~ span {
+    padding: 2px;
+    display: inline-block;
+    border:1px solid  #666666;
+    background-color:#eee;
+    width: 200px;
+}
+
+ul {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    display: inline-block;
+    border:1px solid  #666666;
+    width: 670px;
+    background-color:#eee;
+}
+
+.col-lg {
+	width: 250px;
+}
+
+.col-ex-lg {
+	width: 450px;
+}
+
+.col-ex-lg ~ span {
+	width: 250px;
+}
+
+.sidebar-hr {
+    display: none;
+}
+
+#sidebar {    
+    padding: 50px 20px;
+    float: right;
+    height: 500px;
+    background-color: gold;
+    width: 20%;
+}
+
+.sidebar-text {
+    text-align: left;
+    width: 100%;
+}
+
+.sidebar-text > .highlight {
+    font-weight: bold;
+}
+
+.sidebar-link {
+    color: #3098FF;
+}
+
