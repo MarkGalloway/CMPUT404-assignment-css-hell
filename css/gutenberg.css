@@ -20,12 +20,17 @@ h2, h3, h3  > a {
 
 a, a:visited, a:focus {
     color: brown;
-    font-size: 20px;
     text-decoration: none;
 }
 
 a:hover {
     color: #5F1818;
+}
+
+a i {
+    font-weight: normal;
+    font-style: italic;
+    color: #555;
 }
 
 h2, h3, h3  > a {
@@ -34,6 +39,15 @@ h2, h3, h3  > a {
     color: black !important;
 }
 
-br ~ br {
-    display: none;
+img {
+    border: 2px solid #5F1818;
+    border-radius: 2px;
+}
+
+p ~ div.fig {
+    margin-top: 15px !important;
+}
+
+.mynote {
+    background-color: transparent;
 }
