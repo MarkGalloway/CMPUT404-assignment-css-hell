@@ -30,7 +30,7 @@
 
 *** Requirements
 
-    - [ ] Theme paragraphs with CSS
+    - [X] Theme paragraphs with CSS
     - [ ] Theme header tags with CSS
     - [ ] Theme images and images captions with CSS
     - [ ] Change the colour scheme to something aesthetically pleasing
